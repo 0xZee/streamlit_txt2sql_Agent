@@ -18,6 +18,11 @@ streamlit run main.py
 ```
 
 
+# 📊 LangGraph WorkFlow
+LangGraph Work-Flow
+
+![Workflow](wf.png)
+
 # ⌨ APP DOCKERFILE : 
 To build the App from Dockerfile
 
@@ -27,9 +32,4 @@ docker run -p 8501:8501 \
     -e GROQ_API_KEY=your_groq_api_key \
     chatbot-app
 ```
-
-# 📊 LangGraph WorkFlow
-LangGraph Work-Flow
-
-![Workflow](wkf.png)
 
