@@ -4,6 +4,9 @@ Streamlit `Text to SQL` Agentic ChatBot app built with `langgraph workflow` :
 - Workflow : `LangGraph` Workflow with text-to-query, sqlite, and memory & session management
 - Inference & LLM : `Groq Inference`, Model : `llama3.2 3b`
 
+## Interface :
+![ChatBot App](t2s.jpg)
+
 # Steps :
 - Put `GROQ_API_KEY` in `.streamlit/secrets.toml`
 - Put your csv file in `/data` folder
@@ -14,7 +17,6 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
-![ChatBot App](t2s.jpg)
 
 # ⌨ APP DOCKERFILE : 
 To build the App from Dockerfile
