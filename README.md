@@ -14,7 +14,7 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
-![ChatBot App](sc_app.png)
+![ChatBot App](t2s.jpg)
 
 # ⌨ APP DOCKERFILE : 
 To build the App from Dockerfile
