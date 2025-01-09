@@ -1,3 +1,6 @@
+from google.cloud import bigquery
+
+
 def dataset_to_bq(dataset, project_id, dataset_name, table_name):
   client = bigquery.Client()
   table_id = f"{project_id}.{dataset_name}.{table_name}"
